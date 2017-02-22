@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> CrystalsCollector Game</title>
+	<link rel= "stylesheet" type="text/css" href= "css/reset.css">
+	<link rel= "stylesheet" type = "text/css" href ="css/style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<p id="insturctions">
+You will be given a ransom number at the start of the game. <br><br>
+There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br> <br>
+You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. <br> <br>
+The value of each crystal is hidden from you until you click on it.<br> <br>
+Each time when the game starts, the game will change the values of each crystal. 
+</p>
+
+<div id="goal">0</div>
+<div id= "score">
+	<div id= "wins"> Wins:0</div>
+	<div id ="losses">Losses:0</div>
+</div> 
+<div class= "crystalImages">
+<img class= "blueCrystal" src= "images/image_blue.jpg">
+<img class= "greenCrystal" src= "images/image_green.jpg">
+<img class= "redCrystal" src= "images/image_red.jpg">
+<img class= "yellowCrystal" src= "images/image_yellow.jpg">
+</div>
+<div id="numberHeader">Your total score is:</div>
+<div id="number"> 0 </div>
+<script type="text/javascript" src= "./javascript/game.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+.crystalImages {
+width:30%;
+height:10%;
+}
+
+#insturctions{ background:tan;
+width:30%;}
+
+
+body{background: teal;}
+
+#goal{background:green; 
+	padding-bottom: 10%;
+width:15%;
+height:20%;
+font-size: 125%;
+}
+#score{background: aqua;
+width: 5%;
+
+}
+.blueCrystal{width:10%;}
+.greenCrystal{width:10%;}
+.redCrystal{width:10%;}
+.yellowCrystal{width:10%;}
