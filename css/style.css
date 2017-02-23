@@ -1,42 +1,58 @@
 .crystalImages {
-width:30%;
-height:10%;
+    width: 30%;
+    height: 30%;
 }
-
-#insturctions{ background:tan;
-width:30%;}
-
-
+#insturctions {
+    background: tan;
+    width: 30%;
+}
 body {
     background: url("../images/Mine.jpg") no-repeat left fixed;
     background-size: 100% 100%;
 }
-
-#goal{background:green; 
-	padding-bottom: 10%;
-width:15%;
-height:20%;
-font-size: 125%;
+.header {
+    color: white;
 }
-#score{background: aqua;
-padding-bottom:10%;
-font-size: 125%
-width:15%;
-height:20%;
-
-
+#goal {
+    background: green;
+    padding-bottom: 10%;
+    width: 15%;
+    height: 20%;
+    font-size: 125%;
 }
-.blueCrystal{width:15%;}
-.greenCrystal{width:15%;}
-.redCrystal{width:15%;}
-.yellowCrystal{width:15%;}
-
-#numberHeader{background: blue;
-width:15%;
-margin-bottom: 1%;
-color:white;}
-
-#number{background: blue;
-padding-bottom: 5%;
-width: 15%;
-color:white;}
+#score {
+    background: aqua;
+    padding-bottom: 9%;
+    max-width: 15%;
+    height: 15%;
+}
+#wins {
+    width: 100%;
+}
+#losses {
+    width: 100%;
+}
+.blueCrystal {
+    width: 20%;
+}
+.greenCrystal {
+    width: 20%;
+}
+.redCrystal {
+    width: 20%;
+}
+.yellowCrystal {
+    width: 20%;
+}
+#numberHeader {
+    background: teal;
+    width: 15%;
+    margin-bottom: 1%;
+    color: white;
+}
+#number {
+    background: teal;
+    padding-bottom: 5%;
+    width: 15%;
+    color: white;
+}
