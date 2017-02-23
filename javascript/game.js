@@ -20,13 +20,13 @@ $(document).ready(function() {
             wins++;
         } else if (number > goal) {
             endOfGame = true;
-            losses++;     
+            losses++;
         };
 
-        if(endOfGame){
-         $("#wins").html("Wins:" + wins);
-        $("#losses").html("losses:" + losses);
-        startgame()
+        if (endOfGame) {
+            $("#wins").html("Wins:" + wins);
+            $("#losses").html("losses:" + losses);
+            startgame()
         }
 
     };
@@ -40,59 +40,59 @@ $(document).ready(function() {
         endOfGame = false;
 
         //reset Goal number
-         goal = Math.round(Math.random() * 120 - 19) + 19;
+        goal = Math.round(Math.random() * 120 - 19) + 19;
 
-       
+
 
         //reset crystal values
-         blueCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
-         redCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
-         greenCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
-         yellowCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
+        blueCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
+        redCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
+        greenCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
+        yellowCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
 
-        
+
         $(".blueCrystal").on('click', function() {
-            if(endOfGame == false){
-            number = number + blueCrystalValue;
-            scoreWorth();
-            $("#number").html(number);
+            if (endOfGame == false) {
+                number = number + blueCrystalValue;
+                scoreWorth();
+                $("#number").html(number);
 
-            console.log(number);
-             
+                console.log(number);
+
             };
         })
 
 
         $(".redCrystal").on('click', function() {
-            if(endOfGame == false){
-            number = number + redCrystalValue;
-            scoreWorth();
-            $("#number").html(number);
+            if (endOfGame == false) {
+                number = number + redCrystalValue;
+                scoreWorth();
+                $("#number").html(number);
             };
         })
 
         $(".greenCrystal").on('click', function() {
-            if(endOfGame == false){
-            number = number + greenCrystalValue;
-            scoreWorth();
-            $("#number").html(number);
+            if (endOfGame == false) {
+                number = number + greenCrystalValue;
+                scoreWorth();
+                $("#number").html(number);
             };
         })
 
 
         $(".yellowCrystal").on('click', function() {
-            if (endOfGame == false){
-            number = number + yellowCrystalValue;
-            scoreWorth();
-            $("#number").html(number);
+            if (endOfGame == false) {
+                number = number + yellowCrystalValue;
+                scoreWorth();
+                $("#number").html(number);
             };
         })
 
 
-         $("#goal").html(goal);
-         $("number").html(number);
-         $("#wins").html("wins: " + wins);
-         $("#losses").html("losses: " + losses)
+        $("#goal").html(goal);
+        $("number").html(number);
+        $("#wins").html("wins: " + wins);
+        $("#losses").html("losses: " + losses)
 
 
 

@@ -7,7 +7,10 @@ height:10%;
 width:30%;}
 
 
-body{background: teal;}
+body {
+    background: url("../images/Mine.jpg") no-repeat left fixed;
+    background-size: 100% 100%;
+}
 
 #goal{background:green; 
 	padding-bottom: 10%;
@@ -16,10 +19,24 @@ height:20%;
 font-size: 125%;
 }
 #score{background: aqua;
-width: 5%;
+padding-bottom:10%;
+font-size: 125%
+width:15%;
+height:20%;
+
 
 }
-.blueCrystal{width:10%;}
-.greenCrystal{width:10%;}
-.redCrystal{width:10%;}
-.yellowCrystal{width:10%;}
+.blueCrystal{width:15%;}
+.greenCrystal{width:15%;}
+.redCrystal{width:15%;}
+.yellowCrystal{width:15%;}
+
+#numberHeader{background: blue;
+width:15%;
+margin-bottom: 1%;
+color:white;}
+
+#number{background: blue;
+padding-bottom: 5%;
+width: 15%;
+color:white;}
