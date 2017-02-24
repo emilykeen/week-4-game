@@ -40,15 +40,15 @@ $(document).ready(function() {
         endOfGame = false;
 
         //reset Goal number
-        goal = Math.round(Math.random() * 120 - 19) + 19;
+        goal = Math.floor(Math.random() * 101 + 19);
 
 
 
         //reset crystal values
-        blueCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
-        redCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
-        greenCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
-        yellowCrystalValue = Math.round((Math.random() * 12) - 1) + 1;
+        blueCrystalValue = Math.floor(Math.random() * 11 + 1);
+        redCrystalValue = Math.floor(Math.random() * 11 + 1);
+        greenCrystalValue = Math.floor(Math.random() * 11 + 1);
+        yellowCrystalValue = Math.floor(Math.random() * 11 + 1);
 
 
         $(".blueCrystal").on('click', function() {
